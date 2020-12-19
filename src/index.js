@@ -1,12 +1,23 @@
-import React, {useState} from 'react';
+import React, {useState, useContext} from 'react';
 import ReactDOM from 'react-dom';
 
 import '../src/index.css';
 
+const TestContext = React.createContext();
+
 const App = () => {
   return (
-    <HookSwitcher />
+    <TestContext.Provider value="Test Context">
+      <HookSwitcher />
+
+    </TestContext.Provider>
   );
+};
+
+const TestContextC = () => {
+  const value = useContext(TestContext);
+
+  return <p>{value}</p>
 };
 
 const HookSwitcher = () => {
@@ -45,6 +56,8 @@ const HookSwitcher = () => {
       <button onClick={() => setFontWeight(!fontWeight)}>
         Bold
       </button>
+
+      <TestContextC />
     </div>
   )
 }
