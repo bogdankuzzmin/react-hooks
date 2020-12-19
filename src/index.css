@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+}
+
+p {
+  margin-bottom: 15px;
+  color: crimson;
+}
+
+button {
+  margin-right: 10px;
+}
