@@ -1,17 +1,53 @@
-import React from 'react';
+import React, {useState} from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+import '../src/index.css';
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+const App = () => {
+  return (
+    <HookSwitcher />
+  );
+};
+
+const HookSwitcher = () => {
+  const [color, setColor] = useState('black');
+  const [fontSize, setFontSize] = useState(14);
+  const [fontWeight, setFontWeight] = useState(false);
+
+  const weight = fontWeight ? '700' : '400';
+
+  return (
+    <div style={{
+      padding: '10px',
+      height: '100vh',
+      fontSize: `${fontSize}px`,
+      fontWeight: weight,
+      backgroundColor: color}}>
+
+      <p>Hello, Mother Fucker!</p>
+
+      <button onClick={() => setColor('black')}>
+        Dark
+      </button>
+
+      <button onClick={() => setColor('white')}>
+        Light
+      </button>
+
+      <button onClick={() => setFontSize((size) => size + 2)}>
+        +
+      </button>
+
+      <button onClick={() => setFontSize((size) => size - 2)}>
+        -
+      </button>
+
+      <button onClick={() => setFontWeight(!fontWeight)}>
+        Bold
+      </button>
+    </div>
+  )
+}
+
+ReactDOM.render(<App />,
+  document.getElementById('root'));
