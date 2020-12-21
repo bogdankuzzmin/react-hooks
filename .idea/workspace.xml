@@ -54,7 +54,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608361909534</updated>
-      <workItem from="1608361914362" duration="7467000" />
+      <workItem from="1608361914362" duration="8491000" />
+      <workItem from="1608476338150" duration="13000" />
+      <workItem from="1608570177964" duration="1935000" />
     </task>
     <task id="LOCAL-00001" summary="useState">
       <created>1608371184205</created>
@@ -70,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608373010319</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="useContext">
+      <created>1608374662971</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608374662971</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,10 +95,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="useState" />
     <MESSAGE value="deleted files that I don't need" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted files that I don't need" />
+    <MESSAGE value="useContext" />
+    <option name="LAST_COMMIT_MESSAGE" value="useContext" />
   </component>
 </project>
