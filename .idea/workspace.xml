@@ -4,6 +4,7 @@
     <list default="true" id="f40d0c40-b624-45cd-8ce9-4bbdee791f32" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +58,7 @@
       <workItem from="1608361914362" duration="8491000" />
       <workItem from="1608476338150" duration="13000" />
       <workItem from="1608570177964" duration="2073000" />
-      <workItem from="1608657606369" duration="1169000" />
+      <workItem from="1608657606369" duration="2510000" />
     </task>
     <task id="LOCAL-00001" summary="useState">
       <created>1608371184205</created>
@@ -87,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608572217884</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="useEffect clearTimeout">
+      <created>1608658830540</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608658830540</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +118,7 @@
     <MESSAGE value="deleted files that I don't need" />
     <MESSAGE value="useContext" />
     <MESSAGE value="useEffect" />
-    <option name="LAST_COMMIT_MESSAGE" value="useEffect" />
+    <MESSAGE value="useEffect clearTimeout" />
+    <option name="LAST_COMMIT_MESSAGE" value="useEffect clearTimeout" />
   </component>
 </project>

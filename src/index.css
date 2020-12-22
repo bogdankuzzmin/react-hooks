@@ -1,10 +1,10 @@
 body {
   margin: 0;
+  color: crimson;
 }
 
 p {
   margin-bottom: 15px;
-  color: crimson;
 }
 
 button {
