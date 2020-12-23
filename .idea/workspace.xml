@@ -4,7 +4,6 @@
     <list default="true" id="f40d0c40-b624-45cd-8ce9-4bbdee791f32" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +57,8 @@
       <workItem from="1608361914362" duration="8491000" />
       <workItem from="1608476338150" duration="13000" />
       <workItem from="1608570177964" duration="2073000" />
-      <workItem from="1608657606369" duration="2510000" />
+      <workItem from="1608657606369" duration="2726000" />
+      <workItem from="1608730246334" duration="327000" />
     </task>
     <task id="LOCAL-00001" summary="useState">
       <created>1608371184205</created>
@@ -95,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608658830540</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="useEffect get data">
+      <created>1608660285149</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608660285149</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +126,7 @@
     <MESSAGE value="useContext" />
     <MESSAGE value="useEffect" />
     <MESSAGE value="useEffect clearTimeout" />
-    <option name="LAST_COMMIT_MESSAGE" value="useEffect clearTimeout" />
+    <MESSAGE value="useEffect get data" />
+    <option name="LAST_COMMIT_MESSAGE" value="useEffect get data" />
   </component>
 </project>
