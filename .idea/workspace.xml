@@ -58,7 +58,7 @@
       <workItem from="1608476338150" duration="13000" />
       <workItem from="1608570177964" duration="2073000" />
       <workItem from="1608657606369" duration="2726000" />
-      <workItem from="1608730246334" duration="327000" />
+      <workItem from="1608730246334" duration="1340000" />
     </task>
     <task id="LOCAL-00001" summary="useState">
       <created>1608371184205</created>
@@ -102,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608660285149</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="created our own hook for planet info">
+      <created>1608730753706</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608730753706</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +134,7 @@
     <MESSAGE value="useEffect" />
     <MESSAGE value="useEffect clearTimeout" />
     <MESSAGE value="useEffect get data" />
-    <option name="LAST_COMMIT_MESSAGE" value="useEffect get data" />
+    <MESSAGE value="created our own hook for planet info" />
+    <option name="LAST_COMMIT_MESSAGE" value="created our own hook for planet info" />
   </component>
 </project>
